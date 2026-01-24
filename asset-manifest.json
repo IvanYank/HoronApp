@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/HoronApp/static/css/main.19c0648e.css",
+    "main.js": "/HoronApp/static/js/main.77062555.js",
+    "static/media/image.jpg": "/HoronApp/static/media/image.5f91c5eba9512ab24672.jpg",
+    "static/media/funeral1.jpg": "/HoronApp/static/media/funeral1.592f3af4b0347c04a1e0.jpg",
+    "static/media/funeral3.jpg": "/HoronApp/static/media/funeral3.b41a1e7c97d7546e52f8.jpg",
+    "static/media/cremation1.jpg": "/HoronApp/static/media/cremation1.8bb854546b90eee3f4e5.jpg",
+    "static/media/funeral2.jpg": "/HoronApp/static/media/funeral2.61d69cebc9db33e4fd7f.jpg",
+    "static/media/cremation3.jpg": "/HoronApp/static/media/cremation3.2284709b7c37711dde38.jpg",
+    "static/media/cremation2.jpg": "/HoronApp/static/media/cremation2.406d95607ef578923362.jpg",
+    "static/media/bakground.jpg": "/HoronApp/static/media/bakground.df12c1e62fc35c2b0694.jpg",
+    "static/media/coffin.svg": "/HoronApp/static/media/coffin.62807ea15a575c68152cd3a1b1795cff.svg",
+    "static/media/airplane.svg": "/HoronApp/static/media/airplane.951c31bded4afd6bafac68a5489a55a7.svg",
+    "static/media/urn.svg": "/HoronApp/static/media/urn.0348ac02142996cb05f3c2953ef7ae89.svg",
+    "index.html": "/HoronApp/index.html",
+    "static/media/arrow.svg": "/HoronApp/static/media/arrow.7f337a608a9ad5391c77ef2f401a543d.svg",
+    "main.19c0648e.css.map": "/HoronApp/static/css/main.19c0648e.css.map",
+    "main.77062555.js.map": "/HoronApp/static/js/main.77062555.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19c0648e.css",
+    "static/js/main.77062555.js"
+  ]
+}
