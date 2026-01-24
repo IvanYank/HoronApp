@@ -1,0 +1,68 @@
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 0 20px 0;
+  color: rgb(124, 23, 23);
+}
+
+.controlPanel {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  border-bottom: 2px solid rgb(124, 23, 23);
+  margin: 0 0 10px 0;
+}
+
+.controlButton {
+  font-size: 20px;
+  background: rgb(221, 83, 83);
+  padding: 10px 60px;
+  color: #fff;
+
+  &Selected {
+    background: rgb(124, 23, 23);
+  }
+}
+
+.serviceBlock {
+  display: none;
+
+  &.selected {
+    display: flex;
+  }
+}
+
+.servicesBlock img {
+  max-width: 33.33%;
+}
+
+@media(max-width: 768px) {
+  .title {
+    font-size: 22px;
+    margin: 0 0 20px 0;
+  }
+
+  .controlButton {
+    font-size: 16px;
+    padding: 10px 30px;
+  }
+
+  .serviceBlock.selected {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .servicesBlock img {
+    max-width: 100%
+  }
+}
+
+@media(max-width: 425px) {
+  .title {
+    font-size: 18px;
+  }
+
+  .controlButton {
+    padding: 10px 20px;
+  }
+}

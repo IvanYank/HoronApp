@@ -1,0 +1,52 @@
+// .link{
+//   display: block;
+// }
+
+.service {
+  height: 100%;
+  width: 32%;
+  background-color: #ffffffe3;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 25px;
+  text-decoration: none;
+  position: relative;
+}
+
+.serviceWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.serviceLeft svg {
+  width: 80px;
+  margin: 0 0 6px 0;
+}
+
+.serviceLeft p {
+  color: black;
+}
+
+.serviceRight {
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.serviceRight svg {
+  width: 30px;
+}
+
+@media (max-width: 768px) {
+  .service {
+    width: 100%;
+    margin: 0 0 20px 0;
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+}

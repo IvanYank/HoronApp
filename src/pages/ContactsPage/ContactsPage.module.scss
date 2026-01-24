@@ -1,0 +1,46 @@
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 0 20px 0;
+  color: rgb(124, 23, 23);
+}
+
+.mainAddress {
+  margin: 0 0 20px 0
+}
+
+.addressTitle {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+}
+
+.address {
+  padding: 10px 0;
+}
+
+.addressGrey {
+  background-color: rgb(221, 221, 221);
+}
+
+.number,
+.email {
+  padding: 10px 0;
+}
+
+@media(max-width: 520px) {
+  .title {
+    font-size: 18px;
+  }
+
+  .addressTitle {
+    font-size: 16px;
+  }
+
+  .number,
+  .email,
+  .address {
+    padding: 5px 0;
+    font-size: 14px;
+  }
+}
