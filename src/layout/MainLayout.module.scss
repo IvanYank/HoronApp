@@ -1,3 +1,5 @@
+@use '../styles/variables' as style;
+
 * {
   font-size: 18px;
   font-family: "Roboto", sans-serif;
@@ -29,7 +31,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 10;
-  background-color: rgb(124, 23, 23);
+  background-color: style.$color-primary;
   margin: 0 0 20px 0;
   min-height: 45px;
 }
@@ -101,7 +103,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(124, 23, 23);
+    background-color: style.$color-primary;
     transition: 0.3s;
 
     &Open {

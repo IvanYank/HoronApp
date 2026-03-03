@@ -1,11 +1,15 @@
-.description {
-  margin: 0 0 20px 0;
-}
+@use '../../styles/variables' as style;
 
 .title {
   font-size: 28px;
   font-weight: 700;
   margin: 0 0 20px 0;
+  color: style.$color-title;
+}
+
+.description {
+  margin: 0 0 20px 0;
+  color: style.$color-text;
 }
 
 .transportationBlock {
@@ -32,8 +36,8 @@
 }
 
 .tranportationTitle {
-  background-color: #cf9f71;
-  border: 1px #cf9f71 solid;
+  background-color: style.$color-table;
+  border: 1px style.$color-table solid;
   font-weight: 700;
   color: #fff;
   text-align: center;

@@ -16,17 +16,15 @@ export default function HomePage({
 }) {
   return (
     <Link to={url} className={styles.service}>
-      {/* <div className={styles.service}> */}
-        <div className={styles.serviceWrapper}>
-          <div className={styles.serviceLeft}>
-            <Icon />
-            <p>{text}</p>
-          </div>
-          <div className={styles.serviceRight}>
-            <Arrow />
-          </div>
+      <div className={styles.serviceWrapper}>
+        <div className={styles.serviceLeft}>
+          <Icon />
+          <p>{text}</p>
         </div>
-      {/* </div> */}
+        <div className={styles.serviceRight}>
+          <Arrow />
+        </div>
+      </div>
     </Link>
   );
 }

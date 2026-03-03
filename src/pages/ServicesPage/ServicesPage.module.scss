@@ -1,26 +1,28 @@
+@use '../../styles/variables' as style;
+
 .title {
   font-size: 28px;
   font-weight: 700;
   margin: 0 0 20px 0;
-  color: rgb(124, 23, 23);
+  color: style.$color-title;
 }
 
 .controlPanel {
   display: flex;
   justify-content: center;
   gap: 20px;
-  border-bottom: 2px solid rgb(124, 23, 23);
+  border-bottom: 2px solid style.$color-primary;
   margin: 0 0 10px 0;
 }
 
 .controlButton {
   font-size: 20px;
-  background: rgb(221, 83, 83);
+  background: style.$color-secondary;
   padding: 10px 60px;
   color: #fff;
 
   &Selected {
-    background: rgb(124, 23, 23);
+    background: style.$color-primary;
   }
 }
 

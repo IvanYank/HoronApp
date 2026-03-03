@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import clsx from 'clsx';
 
 import image from '../../assets/images/image.jpg'
@@ -37,26 +36,15 @@ export default function TransportPage() {
           <div className={clsx(styles.tranportationElem, styles.tranportationTitle, styles.tranportationRight)}>Цена</div>
         </div>
         {
-          tranportationInfo.map((el) => {
+          tranportationInfo.map((el, index) => {
             return (
-              <div className={styles.transportationRow}>
+              <div key={index} className={styles.transportationRow}>
                 <div className={clsx(styles.tranportationElem, styles.tranportationLeft)}>{el[0]}</div>
                 <div className={clsx(styles.tranportationElem, styles.tranportationRight)}>{el[1]}</div>
               </div>
             )
           })
         }
-        {/* <div className={styles.transportationLeft}>
-          {
-            tranportationInfo.map((el) => <div className={styles.tranportationElem}>{el[0]}</div>)
-          }
-        </div>
-        <div className={styles.transportationRight}>
-          {
-            tranportationInfo.map((el) => <div className={styles.tranportationElem}>{el[1]}</div>)
-          }
-        </div> */}
-
       </div>
       <div className={styles.imagesBlock}>
         <div className={styles.image}>

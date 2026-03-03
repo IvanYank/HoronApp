@@ -15,10 +15,6 @@ export default function HomePage() {
       <div className={styles.servicesBlock}>
         <img className={styles.servicesImage} src={background} alt="Background" />
         <div className={styles.panelBlock}>
-          {/* <PanelElement Icon={Urn} text={'Кремация'} />
-          <PanelElement Icon={Coffin} text={'Похороны'} />
-          <PanelElement Icon={Airplane} text={'Груз 200'} /> */}
-
           <PanelElement url='/services' Icon={Urn} text={'Кремация'} />
           <PanelElement url='/services' Icon={Coffin} text={'Похороны'} />
           <PanelElement url='/transport' Icon={Airplane} text={'Груз 200'} />

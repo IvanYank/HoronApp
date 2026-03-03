@@ -1,20 +1,13 @@
-import { ReactComponent as Urn } from '../../assets/icons/urn.svg'
-import { ReactComponent as Coffin } from '../../assets/icons/coffin.svg'
-import { ReactComponent as Airplane } from '../../assets/icons/airplane.svg'
-import image from '../../assets/images/image.jpg'
-import background from '../../assets/images/bakground.jpg'
-import PanelElement from '../../components/PanelElement/PanelElement';
-
 import styles from './ContactsPage.module.scss';
 import clsx from 'clsx'
 
 
 export default function ContactsPage() {
   const branchAddress = [
-    "г. Москва, ул. Ладожская, д. 10",
-    "г. Москва, Промышленная ул, д. 4с7",
-    "г. Раменское, ул. Махова, д. 14",
-    "г. Москва, ул. Вавилова, д.61 стр.5",
+    "Малый отдел 1",
+    "Малый отдел 2",
+    "Малый отдел 3",
+    "Малый отдел 4",
   ]
 
   return (
@@ -26,7 +19,7 @@ export default function ContactsPage() {
             Адрес центрального отделения:
           </div>
           <div className={styles.address}>
-            г. Москва, 1-й Коптельский пер.20, помещение 2
+            Главный отдел
           </div>
         </div>
         <div className={styles.branchAddress}>
@@ -36,7 +29,7 @@ export default function ContactsPage() {
           {
             branchAddress.map((address, index) => {
               return (
-                <div className={
+                <div key={index} className={
                   clsx(
                     styles.address,
                     {
