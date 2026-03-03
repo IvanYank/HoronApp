@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/HoronApp/static/css/main.fc42fb30.css",
-    "main.js": "/HoronApp/static/js/main.7d1b99aa.js",
+    "main.js": "/HoronApp/static/js/main.f6bacc90.js",
     "static/media/image.jpg": "/HoronApp/static/media/image.5f91c5eba9512ab24672.jpg",
     "static/media/funeral1.jpg": "/HoronApp/static/media/funeral1.592f3af4b0347c04a1e0.jpg",
     "static/media/funeral3.jpg": "/HoronApp/static/media/funeral3.b41a1e7c97d7546e52f8.jpg",
@@ -16,10 +16,10 @@
     "index.html": "/HoronApp/index.html",
     "static/media/arrow.svg": "/HoronApp/static/media/arrow.7f337a608a9ad5391c77ef2f401a543d.svg",
     "main.fc42fb30.css.map": "/HoronApp/static/css/main.fc42fb30.css.map",
-    "main.7d1b99aa.js.map": "/HoronApp/static/js/main.7d1b99aa.js.map"
+    "main.f6bacc90.js.map": "/HoronApp/static/js/main.f6bacc90.js.map"
   },
   "entrypoints": [
     "static/css/main.fc42fb30.css",
-    "static/js/main.7d1b99aa.js"
+    "static/js/main.f6bacc90.js"
   ]
 }
